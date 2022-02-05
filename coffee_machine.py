@@ -135,7 +135,6 @@ while True:
     print("Write action (buy, fill, take, remaining, exit):")
     action = input()
     print()
-    coffee_machine.action = action
 
     if action == "buy":
         coffee_machine.choose_action("buy")
