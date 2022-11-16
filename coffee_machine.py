@@ -131,10 +131,10 @@ class CoffeeMachine:
 
     def remaining(self):
         print("The coffee machine has:")
-        print('{} of water'.format(self.water_in_machine))
-        print('{} of milk'.format(self.milk_in_machine))
-        print('{} of beans'.format(self.beans_in_machine))
-        print('{} of disposable cups'.format(self.cups_in_machine))
+        print('{} ml of water'.format(self.water_in_machine))
+        print('{} ml of milk'.format(self.milk_in_machine))
+        print('{} g of beans'.format(self.beans_in_machine))
+        print('{} disposable cups'.format(self.cups_in_machine))
         print('${} of money'.format(self.money_in_machine))
 
 
